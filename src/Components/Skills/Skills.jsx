@@ -45,7 +45,7 @@ const Skills = () => {
             <section className="min-h-fit ">
 
                 <div className=" md:container px-6 py-10" >
-                    <h1 className=" text-[#00008B] md:text-3xl text-xl font-bold ">Skills </h1>
+                    <h1 className=" text-[#00008B] md:text-3xl text-center text-xl font-bold ">Skills </h1>
                 </div>
                 <br />
                 <div className=" lg:w-3/5 mx-auto grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 px-6 ">
@@ -58,8 +58,6 @@ const Skills = () => {
                                     <h2 className="text-lg:2xl text-lg font-sans font-bold ">{item.name} </h2>
                                     <p className=" font-mono "> {item.description} </p>
                                     <div className=" text-xl absolute top-3 right-3 ">
-
-
 
                                         <button className="" onClick={() => document.getElementById('my_modal_3').showModal()}></button>
 

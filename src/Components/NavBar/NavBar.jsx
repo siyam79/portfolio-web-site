@@ -25,12 +25,9 @@ const NavBar = () => {
                     </div >
                     <div>
 
-                        <h1 className="lg:w-24 lg:block hidden ">SIYAM </h1>
+                        <h1 className="lg:w-24 lg:block hidden text-2xl font-mono text-[#00008B] ">SI<span className="text-cyan-600 ">YA</span>M</h1>
                     </div>
                 </div >
-
-
-
 
                 <div className="navbar-center hidden lg:flex  ">
                     <ul className="menu menu-horizontal px-1 ">
@@ -38,7 +35,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <h1 className="lg:w-24 lg:hidden ">SIYAM </h1>
+                    <h1 className="lg:w-24 lg:hidden text-xl font-mono text-[#00008B] ">SI<span className="text-cyan-700 ">YA</span>M</h1>
                 </div>
             </div >
         </div>
