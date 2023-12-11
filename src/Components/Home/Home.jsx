@@ -1,5 +1,7 @@
+import About from "../About/About";
 import Bot from "../Bot/Bot";
 import ContactUs from "../ContactUs/ContactUs";
+import Experince from "../Experince/Experince";
 import Footer from "../Footer/Footer";
 import Hero from "../Hero/Hero";
 import NavBar from "../NavBar/NavBar";
@@ -12,7 +14,9 @@ const Home = () => {
 
             <Bot></Bot>
             <Hero></Hero>
+            <Experince></Experince>
             <Skills></Skills>
+            <About></About>
             <ContactUs></ContactUs>
             <Footer></Footer>
         </div>

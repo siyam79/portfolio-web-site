@@ -21,7 +21,8 @@ const Footer = () => {
                     </div>
                 </nav>
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                    <p> Current Location : Bhola  </p>
+                    <p> Siyam Ahmed </p>
                 </aside>
             </footer>
         </div>
