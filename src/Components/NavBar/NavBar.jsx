@@ -1,19 +1,23 @@
-import { NavLink } from "react-router-dom";
+
 
 const NavBar = () => {
 
     const navBar = <>
-        <li className="mx-2 font-medium"><NavLink
-            to="/"
-            className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""}>Home</NavLink></li>
+
+        <li className="text-xl font-mono "> <a href="#home"> Home</a> </li>
+        <li className="text-xl font-mono "> <a href="#about"> About</a></li>
+        <li className="text-xl font-mono ">  <a href="#experince">Experince</a></li>
+        <li className="text-xl font-mono "> <a href="#skills">Skills</a></li>
+        <li className="text-xl font-mono "> <a href="#projects">Projects</a></li>
+        <li className="text-xl font-mono "> <a href="#education">Education</a></li>
+        <li className="text-xl font-mono "> <a href="#contact">Contact</a></li>
 
     </>
 
     return (
-        <div>
-            <div className="navbar px-6 w-full  bg-slate-200 ">
-                <div className="navbar-start">
+        <div className="sticky top-0 ">
+            <div className="navbar px-6 w-full  sticky top-0 bg-slate-200 ">
+                <div className="navbar-start sticky top-0">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>

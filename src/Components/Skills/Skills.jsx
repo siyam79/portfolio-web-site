@@ -35,7 +35,7 @@ function Skills() {
         },
     ];
     return (
-        <div className="container mx-auto py-24 px-10 ">
+        <div id="skills" className="container mx-auto py-24 px-10 ">
             <h2 className="text-[#000088]  text-4xl font-bold text-center pb-8">My Skills</h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 ">

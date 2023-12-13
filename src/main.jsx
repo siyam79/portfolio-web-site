@@ -8,11 +8,13 @@ const router = createBrowserRouter([
     path: "/",
     element: <App></App>,
   },
+  
 ]);
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* <App></App> */}
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

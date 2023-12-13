@@ -15,24 +15,24 @@ const Experince = () => {
 
     const experince = [
         {
-            name: 'MongoDB', logo: mongoDB, description: 'Professional with expertise in working with MongoDB', details: 'Experienced MongoDB expert adept in NoSQL database management, data modeling, and performance optimization. Skilled in designing scalable solutions and integrating MongoDB with diverse applications. Strong troubleshooting and problem-solving abilities with a deep understanding of MongoDB features.',   skill : 'Database Systems , Database Modeling  , JavaScript/ES6+ , Asynchronous Programming , Version Control , Collaboration'
+            name: 'MongoDB', logo: mongoDB, description: 'Professional with expertise in working with MongoDB', details: 'Experienced MongoDB expert adept in NoSQL database management, data modeling, and performance optimization. Skilled in designing scalable solutions and integrating MongoDB with diverse applications. Strong troubleshooting and problem-solving abilities with a deep understanding of MongoDB features.', skill: 'Database Systems , Database Modeling  , JavaScript/ES6+ , Asynchronous Programming , Version Control , Collaboration'
         },
         {
-            name: 'Express.js', logo: express, description: 'professional with expertise in building web applications using the Express.js',  details: 'An Express.js developer is a professional with expertise in building web applications using the Express.js framework, which is a popular and widely used framework for Node.js. Here ',
-            skill : 'Database Systems , JavaScript/ES6+ , Asynchronous Programming , Version Control , Middleware Usage'
+            name: 'Express.js', logo: express, description: 'professional with expertise in building web applications using the Express.js', details: 'An Express.js developer is a professional with expertise in building web applications using the Express.js framework, which is a popular and widely used framework for Node.js. Here ',
+            skill: 'Database Systems , JavaScript/ES6+ , Asynchronous Programming , Version Control , Middleware Usage'
         },
         {
-            name: 'React.js', logo: reactLogo, description: 'Hellow react developer'
+            name: 'React.js', logo: reactLogo, description: ' React.js developer passionate about creating engaging and responsive user interfaces.' , details :'My experience includes crafting modular and reusable components, leveraging state management libraries like Redux, and integrating with RESTful APIs. I am adept at translating design concepts into functional and visually appealing front-end solutions, always with a focus on performance and scalability',skill: 'Database Systems , JavaScript/ES6+ , Asynchronous Programming , Version Control , Middleware Usage'
         },
         {
-            name: 'Node.js', logo: nodeLogo, description: 'Hellow react developer'
+            name: 'Node.js', logo: nodeLogo, description: 'Node.js developer with a passion for building scalable and efficient server-side applications.' , details: "My expertise spans the entire development lifecycle, from architecting server solutions to optimizing performance and ensuring seamless integrations with databases like MongoDB or MySQL. I thrive on solving complex challenges, implementing best practices, and staying abreast of the evolving Node.js ecosystem.", skill: 'Database Systems , JavaScript/ES6+ , Asynchronous Programming , Version Control , Middleware Usage'
         },
 
         {
-            name: 'Figma', logo: figma, description: 'Hellow react developer'
+            name: 'Figma', logo: figma, description: 'strong proficiency in harnessing the power of Figma to streamline and enhance the collaborative design and development process.' ,details:"My Figma expertise extends beyond traditional design exploration—I use Figma to create interactive prototypes, design systems, and collaborate with designers to ensure a smooth handoff to the development phase. This approach significantly improves efficiency and reduces the likelihood of misinterpretation during implementation." ,  skill: 'Interface Design , Collaborative Design , Component Libraries ,Design Systems , Plugin Integration'
         },
         {
-            name: 'Tailwind', logo: tailwind, description: 'Hellow react developer'
+            name: 'Tailwind', logo: tailwind, description: ' strong proficiency in harnessing the power of Tailwind CSS to craft efficient and visually appealing user interfaces. ' , details:"My experience with Tailwind CSS extends to leveraging its utility-first approach to streamline the styling process. By maximizing the use of utility classes, I ensure clean, maintainable code while achieving pixel-perfect designs. This methodology not only speeds up development but also provides a consistent and cohesive visual language across projects." ,skill: 'Responsive Design , Customization , Flexibility and Consistency , Utility-First Approach , Design System Implementation'
         },
 
     ]
@@ -42,11 +42,9 @@ const Experince = () => {
     return (
         <>
 
-            <section className="min-h-fit ">
-
-                <div className=" md:container px-6 py-10" >
-                    <h1 className=" text-[#00008B] md:text-3xl text-center text-xl font-bold "> My Experince </h1>
-                </div>
+            <section id="experince" className="min-h-fit lg:mt-20 py-20 ">
+                <h1 className=" text-[#00008B] md:text-3xl text-center text-xl font-bold "> My Experince </h1>
+                
                 <br />
                 <div className=" lg:w-4/5 mx-auto grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 px-6 ">
                     {
@@ -84,7 +82,7 @@ const Experince = () => {
                             <h3 className="font-bold text-xl "> {data.name} </h3>
                         </div>
                         <p className="text-sm font-thin py-6 ">{data.details} </p>
-                            <h1 className=" text-xl text-center py-2 font-mono  "> Working Skills </h1>
+                        <h1 className=" text-xl text-center py-2 font-mono  "> Working Skills </h1>
                         <p className=" text-md font-bold  "> {data?.skill} </p>
 
                     </div>
